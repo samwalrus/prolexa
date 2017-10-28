@@ -1,6 +1,6 @@
 :-module(alexa_mod,[alexa/1]).
 
-:- use_module(authenticate_alexa).
+%:- use_module(authenticate_alexa).
 
 :- use_module(library(http/http_dispatch)).
 :- use_module(library(http/http_json)).
