@@ -11,7 +11,7 @@
 
 %:- initialization http_daemon.
 
-:- http_handler(root(alexa), alexa,[])
+:- http_handler(root(alexa), alexa,[]).
 :- http_handler('/', say_hi, []).
 % The predicate server(+Port) starts the server. It simply creates a
 % number of Prolog threads and then returns to the toplevel, so you can
@@ -36,7 +36,7 @@ my_nonterm -->
                           h2('Youtube Channel Playing with Prolog:'),
 			  a(href='https://www.youtube.com/channel/UCfWpIHmy5MEx2p9c_GJrE_g', 'Youtube Playing with Prolog'),
 			  h2('Remote controlling a robot with Prolog pengines:'),
-                          
+
 			  p('This server is powered by swi-prolog and Heroku')
                         ])
                    ])

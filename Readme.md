@@ -3,6 +3,7 @@
 ## Test the server ##
 ```
 curl -v POST http://localhost:5000/alexa -d @testjson --header "Content-Type: application/json"
+curl -v POST https://sheltered-shelf-90689.herokuapp.com/alexa -d @testjson --header "Content-Type: application/json"
 ```
 
 ## Heroku workflow ##
